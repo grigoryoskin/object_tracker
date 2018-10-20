@@ -26,6 +26,7 @@ from aligned_reid.utils.utils import *
 from  aligned_reid.utils import distance
 import time
 
+
 def get_distance(e1, e2):
     
     

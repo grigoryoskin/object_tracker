@@ -45,8 +45,6 @@ hit_dist, miss_dist = [],[]
 
 ##############################################################
 for j in range(int(n_steps/2)):
-    rand_init = []
-    
     target_group = same[random.choice(ids)]
     target_id = random.randint(0,len(target_group)-1)
     target = target_group[target_id]
@@ -70,10 +68,6 @@ for j in range(int(n_steps/2)):
         hits+=1
     
 for j in range(int(n_steps/2)):
-    
-    rand_init = []
-    
-
     target_group = same[random.choice(ids)]
     target_id = random.randint(0,len(target_group)-1)
     target = target_group[target_id]
